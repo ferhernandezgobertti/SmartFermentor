@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=SmartFermentation
+Comment=SmartFermentation_Executable
+Exec=/var/www/html/controlbash.sh
+Icon=/home/pi/Desktop/SmartFermentationLogo.png
+Terminal=false
+Type=Application
+Name[es_UY]=SmartFermentor

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=SmartManagement
+Comment=SmartManagement_Executable
+Exec=/var/www/html/managebash.sh
+Icon=/home/pi/Documents/SmartManagementLogo.png
+Terminal=false
+Type=Application
+Name[es_UY]=SmartFermentor
