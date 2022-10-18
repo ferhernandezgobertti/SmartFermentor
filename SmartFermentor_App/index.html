@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" >
+<header><title> SMARTFERMENTOR </title></header>
+<head>
+  <title>SmartFermentor - ORT University</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/styleLogin.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spicy+Rice">
+
+  <style>
+    body {
+      margin:25px;
+      font-family: Spicy Rice, cursive;
+      font-size: 32px;
+    }
+  </style>
+
+  <script>
+      wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+
+  </script>
+ 
+  <script>
+      var languages = {
+         'en': {
+              'userTitle': 'Usernumber: ',
+              'passTitle': 'Password: ',
+              'passShow': 'Show Password',
+              'logInSession': 'LOG IN',
+              'smartMessage': "-We're honored to present the result of months of hard work and perseverence, and to be able to introduce something useful to the scientific society. We thank ORT Uruguay University for the given opportunity - SmartFermentor Group",
+              'smartEvolution': 'When in doubt, feel free to read our User and Equipment Manual. Also, see the Manufacturing Evolution and Developing Process through this Slideshow:'
+          },
+          'es': {
+              'userTitle': 'Num. Usuario: ',
+              'passTitle': 'Contraseña: ',
+              'passShow': 'Mostrar Contraseña',
+              'logInSession': 'INICIAR SESION',
+              'smartMessage': "-Nos sentimos honrados de presentar el resultado de meses de arduo trabajo y perseverancia, y de poder presentar algo útil para la sociedad científica. Agradecemos a la Universidad ORT Uruguay por la oportunidad que nos ha brindado - SmartFermentor Group",
+              'smartEvolution': 'En caso de duda, no dude en leer nuestro Manual de usuario y Equipamiento. Además, vea la Evolución de la Fabricación y el Proceso de Desarrollo a través de esta Presentación de Diapositivas:'
+          },
+          'pt': {
+              'userTitle': 'Num. Usuário: ',
+              'passTitle': 'Senha: ',
+              'passShow': 'Mostrar senha',
+              'logInSession': 'ENTRAR',
+              'smartMessage': "-Estamos honrados em apresentar o resultado de meses de trabalho árduo e perseverança e poder introduzir algo útil à sociedade científica. Agradecemos à Universidade ORT Uruguai pela oportunidade dada - SmartFermentor Group",
+              'smartEvolution': 'Em caso de dúvida, fique à vontade para ler nosso Manual de Usuário e Equipamento. Além disso, veja o Processo de Desenvolvimento e Desenvolvimento de Fabricação através deste Slideshow:'
+          },
+          'de': {
+              'userTitle': 'Nutzernummer: ',
+              'passTitle': 'Passwort: ',
+              'passShow': 'Passwort Anzeigen',
+              'logInSession': 'EINLOGGEN',
+              'smartMessage': "-Wir fühlen uns geehrt, das Ergebnis monatelanger harter Arbeit und Ausdauer zu präsentieren und etwas Nützliches für die wissenschaftliche Gesellschaft vorstellen zu können. Wir danken der ORT Uruguay Universität für die gegebene Gelegenheit. - SmartFermentor Group",
+              'smartEvolution': 'Lesen Sie im Zweifelsfall unser Benutzer- und Gerätehandbuch. Lesen Sie auch den Herstellungsprozess und den Entwicklungsprozess in dieser Diashow:'
+          }
+      };
+
+  $(function(){
+      $('.translate').click(function(){
+          var lang = $(this).attr('id');
+
+          $('.lang').each(function(index, element){
+              $(this).text(languages[lang][$(this).attr('key')]);
+          });
+      });
+  });
+
+  </script>
+
+</head>
+
+
+<body style="background-color:#085454;">
+
+  <div class="container fadeInUp animated" id="axis">
+
+	<svg viewBox="0 0 1900 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<title>Smart Fermentor</title>
+		<g stroke="none" fill="none" fill-rule="evenodd" fill-opacity="0">
+	        <text id="SmartFermentor" stroke="#fff" fill="#085454"  font-weight="normal" font-size="250">
+				           <tspan x="4" y="240"><!--
+					--><tspan>S</tspan><!--
+					--><tspan>m</tspan><!--
+					--><tspan>a</tspan><!--
+					--><tspan>r</tspan><!--
+					--><tspan>t</tspan><!--
+					--><tspan> </tspan><!--
+					--><tspan>F</tspan><!--
+					--><tspan>e</tspan><!--
+					--><tspan>r</tspan><!--
+					--><tspan>m</tspan><!--
+					--><tspan>e</tspan><!--
+					--><tspan>n</tspan><!--
+					--><tspan>t</tspan><!--
+					--><tspan>o</tspan><!--
+					--><tspan>r</tspan><!--
+				--></tspan>
+			</text>
+		</g>
+	</svg>
+
+</div>
+
+<br>
+
+<div class="smartSystem wow fadeInLeft animated" data-wow-delay="2s">
+<img class="smartSystemImage" align="left" src="SmartSystem08.png" height=680>
+</div>
+
+<div class="container wow fadeInRight animated" data-wow-delay="2s">
+<label for="usernumber" class="lang" key="userTitle" id="usernumberTitle">Usernumber: </label>
+<input type="text" id="usernumber" name="fname" style="float:left; text-align:center;" size="15" maxlength="6">
+</div>
+
+<div class="container wow fadeInRight animated" data-wow-delay="2s">
+<label for="userpassword" class="lang" key="passTitle" id="userpasswordTitle">Password: </label>
+<input type="password" id="userpassword" name="lname" style="float:right; text-align:center;" size="15" maxlength="12">
+</div>
+
+<div class="container wow fadeInDown animated" data-wow-delay="2s">
+<label class="passwordShow lang" key="passShow">Show Password
+  <input type="radio" name="radio" id="radioPassword" onclick="myFunction()">
+  <span class="checkmark"></span>
+</label>
+</div>
+
+<br>
+
+<div class="container wow fadeInDown animated" data-wow-delay="2s">
+<button class="styled animate lang" key="logInSession">LOG IN</button> <!--  -->
+</div>
+
+<br>
+
+<div class="smartSystem wow fadeInUp animated" data-wow-delay="2s"><center>
+<img src="smartFermentorTheme.png" id="smartTheme" height=200></center>
+</div>
+
+<br><br>
+
+<div class="smartSystem wow flipInX animated" data-wow-delay="1s">
+<label class="messageInformation lang" style="text-align:center;" key="smartMessage">-We're honored to present the result of months of hard work and perseverence, and to be able to introduce something useful to the scientific society. We thank ORT Uruguay University for the given opportunity - SmartFermentor Group</label>
+</div>
+<div class="smartSystem wow fadeInUp animated" data-wow-delay="1s"><center>
+<img src="ortLogo.png" id="smartORTLogo" height=120>
+<img src="aniiLogo.png" id="smartANIILogo" height=120>
+</center></div>
+
+<div class="smartSystem wow fadeInDown animated" data-wow-delay="1s">
+<label class="evolutionInformation lang" style="text-align:center;" key="smartEvolution">When in doubt, feel free to read our User and Equipment Manual. Also, see the Manufacturing Evolution and Developing Process through this Slideshow:
+</div>
+
+<!--Slideshow de Imagenes -->
+<div class="w3-content w3-section wow fadeInRight animated" style="max-width:540px" data-wow-delay="1s" id="smartSlideshow"><center>
+  <img class="mySlides w3-animate-fading" src="SmartSystem08.png" width=540 height=490>
+  <img class="mySlides w3-animate-fading" src="SmartSystem01.png" width=540 height=490>
+  <img class="mySlides w3-animate-fading" src="SmartSystem02.png" width=540 height=490>
+  <img class="mySlides w3-animate-fading" src="SmartSystem03.png" width=540 height=490>
+  <img class="mySlides w3-animate-fading" src="SmartSystem04.png" width=540 height=490>
+  <img class="mySlides w3-animate-fading" src="SmartSystem05.png" width=540 height=490>
+  <img class="mySlides w3-animate-fading" src="SmartSystem06.png" width=540 height=490>
+  <img class="mySlides w3-animate-fading" src="SmartSystem07.png" width=540 height=490>
+</center></div>
+
+<center>
+<button class="translate" id="en"><img src="englandFlag.png"></button>
+<button class="translate" id="es"><img src="spainFlag.png"></button>
+<button class="translate" id="pt"><img src="brazilFlag.png"></button>
+<button class="translate" id="de"><img src="germanyFlag.png"></button>
+</center>
+</body>
+
+<script> function myFunction() {
+    var x = document.getElementById("userpassword");
+    var y = document.getElementById("radioPassword");
+    if (x.type === "password") {
+        x.type = "text";
+        y.checked = true;
+    } else {
+        x.type = "password";
+        y.checked = false;
+    }
+}
+</script>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000);    
+}
+</script>
+
+<script>
+
+function changePage(){
+    window.location.href='userPage.html';
+}
+
+$(".styled").click(function() {
+    console.log("HACE CLICK");
+    $(".container").addClass("fadeOutLeft animated");
+    $("#usernumberTitle").addClass("fadeOutRight animated");
+    $("#usernumber").addClass("fadeOutRight animated");
+    $("#userpasswordTitle").addClass("fadeOutRight animated");
+    $("#userpassword").addClass("fadeOutRight animated");
+    $(".smartSystemImage").addClass("fadeOutLeft animated");
+    $(".passwordShow").addClass("fadeOutLeft animated");
+    $(".styled").addClass("fadeOutDown animated");
+    $("#smartTheme").addClass("fadeOutDown animated");
+    $(".messageInformation").addClass("fadeOutRight animated");
+    $("#smartORTLogo").addClass("fadeOutDown animated");
+    $("#smartANIILogo").addClass("fadeOutDown animated");
+    $(".evolutionInformation").addClass("fadeOutLeft animated");
+    $("#smartSlideshow").addClass("fadeOutRight animated");
+    setTimeout(changePage, 1000);
+    
+});
+</script>
+
+</html>
