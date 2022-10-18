@@ -1,0 +1,6 @@
+dic 20 2018 02:45:42.890168 - Control INITIATED Successfully
+dic 20 2018 02:45:52.574175 - INITIATE spin at 500.0 RPM for 3 hours, 0 min, 0 sec
+dic 20 2018 02:53:03.348368 - Control WENT FORWARDS ONE STEP Successfully
+dic 20 2018 02:53:14.094242 - DECELERATE spin at 200.0 RPM for 3 hours, 0 min, 0 sec
+dic 20 2018 03:02:07.511761 - Control STOPPED Successfully
+dic 20 2018 03:02:30.074551 - Control STOPPED Successfully

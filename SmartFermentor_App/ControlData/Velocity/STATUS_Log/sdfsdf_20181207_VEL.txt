@@ -1,0 +1,29 @@
+Dec 07 2018 17:37:29.785041 - Control STOPPED Successfully
+Dec 07 2018 17:47:33.390393 - Control STOPPED Successfully
+Dec 07 2018 17:48:54.832450 - Control INITIATED Successfully
+Dec 07 2018 17:48:55.268031 - INITIATE spin at 400.0 RPM for 3 hours, 2 min, 2 sec
+Dec 07 2018 17:51:52.294301 - Control STOPPED Successfully
+Dec 07 2018 17:52:09.659602 - Control STOPPED Successfully
+Dec 07 2018 18:11:41.574358 - Control STOPPED Successfully
+Dec 07 2018 18:13:43.764450 - Control INITIATED Successfully
+Dec 07 2018 18:13:45.475966 - INITIATE spin at 400.0 RPM for 3 hours, 2 min, 2 sec
+Dec 07 2018 18:14:01.923710 - Control STOPPED Successfully
+Dec 07 2018 18:14:11.730314 - Control STOPPED Successfully
+Dec 07 2018 18:15:53.479371 - Control INITIATED Successfully
+Dec 07 2018 18:15:53.489821 - INITIATE spin at 400.0 RPM for 3 hours, 2 min, 2 sec
+Dec 07 2018 18:17:39.910306 - Control STOPPED Successfully
+Dec 07 2018 18:17:58.322548 - Control STOPPED Successfully
+Dec 07 2018 18:26:47.806657 - Control INITIATED Successfully
+Dec 07 2018 18:26:48.553257 - INITIATE spin at 400.0 RPM for 3 hours, 2 min, 2 sec
+Dec 07 2018 18:26:53.727022 - Control STOPPED Successfully
+Dec 07 2018 18:27:04.276430 - Control INITIATED Successfully
+Dec 07 2018 18:28:03.619918 - Control STOPPED Successfully
+Dec 07 2018 18:28:11.236786 - Control STOPPED Successfully
+Dec 07 2018 18:42:09.365709 - Control INITIATED Successfully
+Dec 07 2018 18:42:10.436987 - INITIATE spin at 400.0 RPM for 3 hours, 2 min, 2 sec
+Dec 07 2018 18:43:37.061496 - Control STOPPED Successfully
+Dec 07 2018 18:43:50.393389 - Control STOPPED Successfully
+Dec 07 2018 18:52:03.711549 - Control INITIATED Successfully
+Dec 07 2018 18:52:11.138383 - INITIATE spin at 400.0 RPM for 3 hours, 2 min, 2 sec
+Dec 07 2018 18:56:30.696823 - Control STOPPED Successfully
+Dec 07 2018 18:57:13.478343 - Control STOPPED Successfully

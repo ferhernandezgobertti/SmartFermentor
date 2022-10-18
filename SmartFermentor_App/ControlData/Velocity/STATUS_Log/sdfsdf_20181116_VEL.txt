@@ -1,0 +1,36 @@
+Nov 16 2018 00:49:25.741226 - Control STOPPED Successfully
+Nov 16 2018 00:51:32.779405 - Control STOPPED Successfully
+Nov 16 2018 00:58:44.561905 - Control STOPPED Successfully
+Nov 16 2018 00:59:57.598079 - Control STOPPED Successfully
+Nov 16 2018 01:02:57.708752 - Control INITIATED Successfully
+Nov 16 2018 01:03:06.485064 - INITIATE spin at 400.0 RPM for 2 hours, 0 min, 0 sec
+Nov 16 2018 01:05:31.163081 - Control STOPPED Successfully
+Nov 16 2018 01:05:37.061166 - Control STOPPED Successfully
+Nov 16 2018 01:07:44.559468 - Control INITIATED Successfully
+Nov 16 2018 01:07:52.008407 - INITIATE spin at 400.0 RPM for 2 hours, 0 min, 0 sec
+Nov 16 2018 01:09:44.715195 - Control STOPPED Successfully
+Nov 16 2018 01:09:59.934695 - Control STOPPED Successfully
+Nov 16 2018 01:14:40.298527 - Control STOPPED Successfully
+Nov 16 2018 01:18:32.988904 - Control INITIATED Successfully
+Nov 16 2018 01:18:38.408989 - INITIATE spin at 400.0 RPM for 2 hours, 0 min, 0 sec
+Nov 16 2018 01:55:51.803102 - Control STOPPED Successfully
+Nov 16 2018 01:56:01.716539 - Control STOPPED Successfully
+Nov 16 2018 17:16:30.482408 - Control STOPPED Successfully
+Nov 16 2018 17:17:28.002314 - Control STOPPED Successfully
+Nov 16 2018 17:19:03.184986 - Control STOPPED Successfully
+Nov 16 2018 17:23:18.080751 - Control STOPPED Successfully
+Nov 16 2018 17:32:40.205302 - Control STOPPED Successfully
+Nov 16 2018 17:44:45.284326 - Control STOPPED Successfully
+Nov 16 2018 17:48:14.603869 - Control STOPPED Successfully
+Nov 16 2018 17:51:56.979263 - Control STOPPED Successfully
+Nov 16 2018 17:54:35.547661 - Control STOPPED Successfully
+Nov 16 2018 17:58:05.204568 - Control STOPPED Successfully
+Nov 16 2018 18:16:40.743861 - Control STOPPED Successfully
+Nov 16 2018 18:17:52.599281 - Control STOPPED Successfully
+Nov 16 2018 18:50:18.243002 - Control STOPPED Successfully
+Nov 16 2018 19:02:05.978670 - Control STOPPED Successfully
+Nov 16 2018 19:03:11.998524 - Control STOPPED Successfully
+Nov 16 2018 19:08:09.520477 - Control STOPPED Successfully
+Nov 16 2018 19:19:56.990859 - Control STOPPED Successfully
+Nov 16 2018 19:26:45.038416 - Control STOPPED Successfully
+Nov 16 2018 20:23:17.275041 - Control STOPPED Successfully
