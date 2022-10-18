@@ -1,0 +1,21 @@
+Dec 17 2018 17:35:05.640261 - Control STOPPED Successfully
+Dec 17 2018 17:40:16.192818 - Control STOPPED Successfully
+Dec 17 2018 17:41:51.750107 - Control INITIATED Successfully
+Dec 17 2018 17:42:00.359996 - INITIATE at 6.5 for 8 hours, 0 min, 0 sec
+Dec 17 2018 17:43:32.344609 - Control STOPPED Successfully
+Dec 17 2018 17:59:09.902717 - Control INITIATED Successfully
+Dec 17 2018 17:59:19.873893 - INITIATE at 6.5 for 8 hours, 0 min, 0 sec
+Dec 17 2018 18:00:33.471773 - Control STOPPED Successfully
+Dec 17 2018 18:00:51.574898 - Control STOPPED Successfully
+Dec 17 2018 18:11:02.176070 - Control STOPPED Successfully
+Dec 17 2018 20:06:13.222702 - Control INITIATED Successfully
+Dec 17 2018 20:06:23.284860 - INITIATE at 6.5 for 8 hours, 0 min, 0 sec
+Dec 17 2018 21:40:07.184039 - Control STOPPED Successfully
+Dec 17 2018 21:40:31.100498 - Control STOPPED Successfully
+Dec 17 2018 21:43:20.317226 - Control INITIATED Successfully
+Dec 17 2018 21:43:28.315315 - INITIATE at 6.5 for 8 hours, 0 min, 0 sec
+Dec 17 2018 22:02:14.282537 - Control STOPPED Successfully
+Dec 17 2018 22:02:31.054920 - Control STOPPED Successfully
+Dec 17 2018 22:31:35.521261 - Control STOPPED Successfully
+Dec 17 2018 22:55:15.772465 - Control STOPPED Successfully
+Dec 17 2018 22:58:51.714269 - Control STOPPED Successfully

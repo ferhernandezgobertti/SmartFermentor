@@ -1,0 +1,12 @@
+Dec 12 2018 00:15:44.588129 - Control STOPPED Successfully
+Dec 12 2018 00:19:29.656423 - Control STOPPED Successfully
+Dec 12 2018 00:22:11.020964 - Control STOPPED Successfully
+Dec 12 2018 00:23:38.218686 - Control STOPPED Successfully
+Dec 12 2018 00:43:53.303475 - Control STOPPED Successfully
+Dec 12 2018 00:45:39.207017 - Control INITIATED Successfully
+Dec 12 2018 00:45:41.111633 - INITIATE at 6.5 for 8 hours, 0 min, 0 sec
+Dec 12 2018 00:46:51.871121 - Control STOPPED Successfully
+Dec 12 2018 00:47:08.568220 - Control STOPPED Successfully
+Dec 12 2018 01:26:24.182590 - Control STOPPED Successfully
+Dec 12 2018 01:32:29.545587 - Control STOPPED Successfully
+Dec 12 2018 01:40:04.217365 - Control STOPPED Successfully

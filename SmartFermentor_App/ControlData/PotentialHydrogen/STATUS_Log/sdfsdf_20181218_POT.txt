@@ -1,0 +1,35 @@
+Dec 18 2018 17:40:07.155984 - Control STOPPED Successfully
+Dec 18 2018 17:47:02.033528 - Control STOPPED Successfully
+Dec 18 2018 17:52:22.512854 - Control STOPPED Successfully
+Dec 18 2018 18:33:29.692863 - Control STOPPED Successfully
+Dec 18 2018 18:44:21.014352 - Control STOPPED Successfully
+Dec 18 2018 18:50:00.184825 - Control STOPPED Successfully
+Dec 18 2018 18:53:16.254852 - Control INITIATED Successfully
+Dec 18 2018 18:53:23.707123 - INITIATE at 6.5 for 8 hours, 0 min, 0 sec
+Dec 18 2018 19:02:34.869515 - Control STOPPED Successfully
+Dec 18 2018 19:02:49.979495 - Control STOPPED Successfully
+Dec 18 2018 19:12:26.752572 - Control STOPPED Successfully
+Dec 18 2018 19:19:35.906566 - Control STOPPED Successfully
+Dec 18 2018 19:27:09.157932 - Control STOPPED Successfully
+Dec 18 2018 19:50:26.830057 - Control STOPPED Successfully
+Dec 18 2018 19:57:36.204269 - Control STOPPED Successfully
+Dec 18 2018 20:09:32.620782 - Control INITIATED Successfully
+Dec 18 2018 20:09:41.608729 - INITIATE at 6.5 for 8 hours, 0 min, 0 sec
+Dec 18 2018 20:29:48.760820 - Control STOPPED Successfully
+Dec 18 2018 20:31:08.343184 - Control STOPPED Successfully
+Dec 18 2018 21:03:25.569110 - Control STOPPED Successfully
+Dec 18 2018 21:07:26.501486 - Control STOPPED Successfully
+Dec 18 2018 21:09:33.760379 - Control STOPPED Successfully
+Dec 18 2018 21:13:49.689627 - Control STOPPED Successfully
+Dec 18 2018 21:29:31.034831 - Control STOPPED Successfully
+Dec 18 2018 21:38:12.842705 - Control STOPPED Successfully
+Dec 18 2018 21:42:34.310706 - Control STOPPED Successfully
+Dec 18 2018 21:45:50.933736 - Control STOPPED Successfully
+Dec 18 2018 21:48:37.270266 - Control STOPPED Successfully
+Dec 18 2018 21:51:54.414676 - Control STOPPED Successfully
+dic 18 2018 22:14:24.239204 - Control STOPPED Successfully
+dic 18 2018 22:16:10.789194 - Control STOPPED Successfully
+dic 18 2018 22:39:23.284320 - Control STOPPED Successfully
+dic 18 2018 22:41:35.524285 - Control STOPPED Successfully
+dic 18 2018 22:48:15.180896 - Control STOPPED Successfully
+dic 18 2018 22:57:47.599334 - Control STOPPED Successfully

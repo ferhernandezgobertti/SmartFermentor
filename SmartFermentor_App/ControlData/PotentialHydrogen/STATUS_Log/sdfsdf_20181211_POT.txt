@@ -1,0 +1,33 @@
+Dec 11 2018 19:31:30.869774 - Control STOPPED Successfully
+Dec 11 2018 20:09:41.739911 - Control INITIATED Successfully
+Dec 11 2018 20:09:49.005930 - INITIATE at 6.5 for 8 hours, 0 min, 0 sec
+Dec 11 2018 20:10:40.576885 - Control STOPPED Successfully
+Dec 11 2018 20:10:53.553396 - Control INITIATED Successfully
+Dec 11 2018 20:13:19.257883 - Control STOPPED Successfully
+Dec 11 2018 20:13:26.946662 - Control STOPPED Successfully
+Dec 11 2018 20:46:08.466574 - Control STOPPED Successfully
+Dec 11 2018 21:50:07.515356 - Control INITIATED Successfully
+Dec 11 2018 21:50:13.993993 - INITIATE at 6.5 for 8 hours, 0 min, 0 sec
+Dec 11 2018 21:50:36.995188 - Control STOPPED Successfully
+Dec 11 2018 21:50:49.501712 - Control STOPPED Successfully
+Dec 11 2018 22:24:50.418614 - Control INITIATED Successfully
+Dec 11 2018 22:24:54.488830 - INITIATE at 6.5 for 8 hours, 0 min, 0 sec
+Dec 11 2018 22:26:15.579450 - Control STOPPED Successfully
+Dec 11 2018 22:26:58.970897 - Control INITIATED Successfully
+Dec 11 2018 22:28:02.496515 - Control STOPPED Successfully
+Dec 11 2018 22:29:06.062120 - Control STOPPED Successfully
+Dec 11 2018 22:33:18.994798 - Control INITIATED Successfully
+Dec 11 2018 22:33:28.127721 - INITIATE at 6.5 for 8 hours, 0 min, 0 sec
+Dec 11 2018 22:33:39.558550 - Control STOPPED Successfully
+Dec 11 2018 22:37:02.058748 - Control INITIATED Successfully
+Dec 11 2018 22:37:05.787068 - INITIATE at 6.5 for 8 hours, 0 min, 0 sec
+Dec 11 2018 22:37:15.476657 - Control STOPPED Successfully
+Dec 11 2018 22:37:43.946811 - Control STOPPED Successfully
+Dec 11 2018 22:43:05.279256 - Control INITIATED Successfully
+Dec 11 2018 22:43:09.111235 - INITIATE at 6.5 for 8 hours, 0 min, 0 sec
+Dec 11 2018 22:43:20.097466 - Control STOPPED Successfully
+Dec 11 2018 22:44:15.483474 - Control STOPPED Successfully
+Dec 11 2018 23:49:31.533804 - Control INITIATED Successfully
+Dec 11 2018 23:49:39.640363 - INITIATE at 6.5 for 8 hours, 0 min, 0 sec
+Dec 11 2018 23:52:46.082417 - Control STOPPED Successfully
+Dec 11 2018 23:54:55.877331 - Control STOPPED Successfully

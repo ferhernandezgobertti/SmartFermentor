@@ -1,0 +1,71 @@
+Nov 16 2018 00:49:25.742974 - Control STOPPED Successfully
+Nov 16 2018 00:51:32.781552 - Control STOPPED Successfully
+Nov 16 2018 00:58:44.572444 - Control STOPPED Successfully
+Nov 16 2018 00:59:57.599672 - Control STOPPED Successfully
+Nov 16 2018 01:05:37.062730 - Control STOPPED Successfully
+Nov 16 2018 01:09:59.936287 - Control STOPPED Successfully
+Nov 16 2018 01:14:40.300116 - Control STOPPED Successfully
+Nov 16 2018 01:56:01.718099 - Control STOPPED Successfully
+Nov 16 2018 17:16:30.497870 - Control STOPPED Successfully
+Nov 16 2018 17:17:08.951628 - Control INITIATED Successfully
+Nov 16 2018 17:17:11.070324 - INITIATE at 5.0 for 3 hours, 0 min, 0 sec
+Nov 16 2018 17:17:24.844689 - Control STOPPED Successfully
+Nov 16 2018 17:17:28.003910 - Control STOPPED Successfully
+Nov 16 2018 17:18:32.503971 - Control INITIATED Successfully
+Nov 16 2018 17:18:33.741367 - INITIATE at 5.0 for 3 hours, 0 min, 0 sec
+Nov 16 2018 17:18:47.717275 - Control STOPPED Successfully
+Nov 16 2018 17:19:03.186589 - Control STOPPED Successfully
+Nov 16 2018 17:22:31.591755 - Control INITIATED Successfully
+Nov 16 2018 17:22:36.230946 - Control STOPPED Successfully
+Nov 16 2018 17:23:18.082437 - Control STOPPED Successfully
+Nov 16 2018 17:32:20.519982 - Control INITIATED Successfully
+Nov 16 2018 17:32:29.669255 - Control STOPPED Successfully
+Nov 16 2018 17:32:40.207039 - Control STOPPED Successfully
+Nov 16 2018 17:34:56.728173 - Control INITIATED Successfully
+Nov 16 2018 17:35:01.134551 - INITIATE at 5.0 for 3 hours, 0 min, 0 sec
+Nov 16 2018 17:40:46.261309 - Control STOPPED Successfully
+Nov 16 2018 17:44:45.286178 - Control STOPPED Successfully
+Nov 16 2018 17:48:14.606186 - Control STOPPED Successfully
+Nov 16 2018 17:48:44.743708 - Control INITIATED Successfully
+Nov 16 2018 17:48:48.953333 - INITIATE at 9.0 for 3 hours, 0 min, 0 sec
+Nov 16 2018 17:51:48.501775 - Control STOPPED Successfully
+Nov 16 2018 17:51:56.981048 - Control STOPPED Successfully
+Nov 16 2018 17:54:35.549841 - Control STOPPED Successfully
+Nov 16 2018 17:55:19.463269 - Control INITIATED Successfully
+Nov 16 2018 17:55:26.017737 - INITIATE at 4.0 for 3 hours, 0 min, 0 sec
+Nov 16 2018 17:57:49.670476 - Control STOPPED Successfully
+Nov 16 2018 17:58:05.206176 - Control STOPPED Successfully
+Nov 16 2018 18:16:40.753569 - Control STOPPED Successfully
+Nov 16 2018 18:17:23.365105 - Control INITIATED Successfully
+Nov 16 2018 18:17:26.651362 - INITIATE at 4.0 for 3 hours, 0 min, 0 sec
+Nov 16 2018 18:17:41.843402 - Control STOPPED Successfully
+Nov 16 2018 18:17:52.600908 - Control STOPPED Successfully
+Nov 16 2018 18:19:07.876872 - Control INITIATED Successfully
+Nov 16 2018 18:19:17.829953 - INITIATE at 4.0 for 3 hours, 0 min, 0 sec
+Nov 16 2018 18:47:40.050863 - Control STOPPED Successfully
+Nov 16 2018 18:47:52.387293 - Control INITIATED Successfully
+Nov 16 2018 18:50:15.571453 - Control STOPPED Successfully
+Nov 16 2018 18:50:18.244705 - Control STOPPED Successfully
+Nov 16 2018 19:02:05.980905 - Control STOPPED Successfully
+Nov 16 2018 19:02:34.869241 - Control INITIATED Successfully
+Nov 16 2018 19:02:38.976262 - INITIATE at 7.0 for 3 hours, 0 min, 0 sec
+Nov 16 2018 19:02:55.683695 - Control STOPPED Successfully
+Nov 16 2018 19:03:12.000185 - Control STOPPED Successfully
+Nov 16 2018 19:03:44.757246 - Control INITIATED Successfully
+Nov 16 2018 19:03:44.893769 - INITIATE at 4.0 for 3 hours, 0 min, 0 sec
+Nov 16 2018 19:07:45.267474 - Control STOPPED Successfully
+Nov 16 2018 19:08:09.522418 - Control STOPPED Successfully
+Nov 16 2018 19:16:34.725730 - Control INITIATED Successfully
+Nov 16 2018 19:16:38.133546 - INITIATE at 4.0 for 3 hours, 0 min, 0 sec
+Nov 16 2018 19:19:56.992821 - Control STOPPED Successfully
+Nov 16 2018 19:24:13.893327 - Control INITIATED Successfully
+Nov 16 2018 19:24:19.205906 - INITIATE at 4.0 for 3 hours, 0 min, 0 sec
+Nov 16 2018 19:26:38.787423 - Control STOPPED Successfully
+Nov 16 2018 19:26:45.040128 - Control STOPPED Successfully
+Nov 16 2018 19:27:38.821213 - Control INITIATED Successfully
+Nov 16 2018 19:27:48.132496 - INITIATE at 4.0 for 3 hours, 0 min, 0 sec
+Nov 16 2018 20:22:33.523485 - Control STOPPED Successfully
+Nov 16 2018 20:22:41.908097 - Control INITIATED Successfully
+Nov 16 2018 20:22:57.492088 - Control INITIATED Successfully
+Nov 16 2018 20:23:07.859287 - Control STOPPED Successfully
+Nov 16 2018 20:23:17.276692 - Control STOPPED Successfully

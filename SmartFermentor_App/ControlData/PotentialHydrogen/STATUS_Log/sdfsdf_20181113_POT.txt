@@ -1,0 +1,6 @@
+Nov 13 2018 19:24:46.903661 - Control INITIATED Successfully
+Nov 13 2018 19:27:40.022938 - Control STOPPED Successfully
+Nov 13 2018 19:32:42.744928 - Control INITIATED Successfully
+Nov 13 2018 19:35:05.943334 - Control STOPPED Successfully
+Nov 13 2018 19:49:16.236459 - Control INITIATED Successfully
+Nov 13 2018 20:46:07.804530 - Control STOPPED Successfully
