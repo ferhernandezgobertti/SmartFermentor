@@ -1,0 +1,277 @@
+.container {
+  background-color: #085454;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  /*min-height: 100vh;
+  width: 200px;
+  top: 43%;
+  left: 44%;*/
+}
+
+label {
+    width:300px;
+    text-align:right;
+    padding-right:30px;
+    color: #085454;
+}
+
+.systemInformation{
+    background-color: #085454;
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+}
+
+.buttonVelocity{
+    background-color: #085454;
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 32px;
+    color: #d5f4e6;
+}
+
+.buttonTemperature{
+    background-color: #085454;
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 32px;
+    color: orange;
+}
+
+.buttonPotential{
+    background-color: #085454;
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 32px;
+    color: green;
+}
+
+.velocityInformation {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    width: 200px;
+    height: 20px;
+}
+
+.temperatureInformation {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    width: 200px;
+    height: 20px;
+}
+
+.potentialInformation {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    width: 200px;
+    height: 20px;
+}
+
+.fermentationInformation {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    width: 600px;
+    height: 200px;
+}
+
+#runControlOption{
+    color: green;
+}
+
+#pauseControlOption{
+    color: blue;
+}
+
+#stopControlOption{
+    color: red;
+}
+
+#restartControlOption{
+    color: blue;
+}
+
+.turnLogo1{
+    position: relative;
+    bottom: 590px;
+    left: 572px;
+    visibility: hidden;
+}
+.turnLogo2{
+    position: relative;
+    bottom: 590px;
+    left: 498px;
+    visibility: hidden;
+}
+.turnLogo1Liquid{
+    position: relative;
+    bottom: 330px;
+    left: 407px;
+    visibility: hidden;
+}
+.turnLogo2Liquid{
+    position: relative;
+    bottom: 330px;
+    left: 302px;
+    visibility: hidden;
+}
+.fluidIn{
+    position: relative;
+    bottom: 530px;
+    right: 108px;
+    visibility: hidden;
+}
+
+.fluidDirection1{
+    position: relative;
+    bottom: 400px;
+    right: 18px;
+    visibility: hidden;
+}
+.fluidDirection2{
+    position: relative;
+    bottom: 250px;
+    right: 66px;
+    visibility: hidden;
+}
+.fluidDirection3{
+    position: relative;
+    bottom: 250px;
+    left: 89px;
+    visibility: hidden;
+}
+.fluidDirection4{
+    position: relative;
+    bottom: 400px;
+    left: 67px;
+    visibility: hidden;
+}
+.temperatureSensor{
+    position: relative;
+    bottom: 340px;
+    right: 76px;
+    visibility: hidden;
+}
+.potentialSensor{
+    position: relative;
+    bottom: 340px;
+    right: 258px;
+    visibility: hidden;
+}
+.dropsBase1{
+    position: relative;
+    bottom: 590px;
+    right: 185px;
+    visibility: hidden;
+}
+.dropsAcid1{
+    position: relative;
+    bottom: 590px;
+    right: 338px;
+    visibility: hidden;
+}
+.dropsBase2{
+    position: relative;
+    bottom: 620px;
+    right: 211px;
+    visibility: hidden;
+}
+.dropsAcid2{
+    position: relative;
+    bottom: 620px;
+    right: 368px;
+    visibility: hidden;
+}
+.bubblesLiquid1{
+    position: relative;
+    bottom: 440px;
+    right: 306px;
+    visibility: hidden;
+}
+.bubblesLiquid2{
+    position: relative;
+    bottom: 440px;
+    right: 408px;
+    visibility: hidden;
+}
+.bubblesLiquid3{
+    position: relative;
+    bottom: 480px;
+    right: 383px;
+    visibility: hidden;
+}
+.bubblesLiquid4{
+    position: relative;
+    bottom: 480px;
+    right: 458px;
+    visibility: hidden;
+}
+.bubblesLiquid5{
+    position: relative;
+    bottom: 520px;
+    right: 518px;
+    visibility: hidden;
+}
+.bubblesLiquid6{
+    position: relative;
+    bottom: 520px;
+    right: 448px;
+    visibility: hidden;
+}
+.fluidOut{
+    position: relative;
+    bottom: 360px;
+    right: 868px;
+    visibility: hidden;
+}
+
+h1 {
+        width: 50px;
+        height: 50px;
+	position: relative;
+	-webkit-animation-name: borderAnimation; /* Safari 4.0 - 8.0 */
+    	-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    	-webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    	animation-name: borderAnimation;
+    	animation-duration: 4s;
+    	animation-iteration-count: infinite;
+  }
+/* Para Safari 4.0 - 8.0 */
+  @-webkit-keyframes borderAnimation {
+    	0%   {background-color:red; left:0px; top:0px;}
+	8%   {background-color:orange; left:200px; top:0px;}
+	16%  {background-color:green; left:400px; top:0px;}
+    	24%  {background-color:yellow; left:400px; top:150px;}
+    	32%  {background-color:brown; left:400px; top:300px;}
+    	40%  {background-color:black; left:200px; top:300px;}
+	48%  {background-color:violet; left:0px; top:300px;}
+    	56%  {background-color:orange; left:-200px; top:300px;}
+	64%  {background-color:yellow; left:-400px; top:300px;}
+    	72%  {background-color:blue; left:-400px; top:150px;}
+    	80%  {background-color:green; left:-400px; top:0px;}
+	88%  {background-color:orange; left:-200px; top:0px;}
+    	100% {background-color:red; left:0px; top:0px;}
+  }
+
+  /* Para los demas navegadores */
+  @keyframes borderAnimation {
+	0%   {background-color:red; left:0px; top:0px;}
+	8%   {background-color:orange; left:200px; top:0px;}
+	16%  {background-color:green; left:400px; top:0px;}
+    	24%  {background-color:yellow; left:400px; top:150px;}
+    	32%  {background-color:brown; left:400px; top:300px;}
+    	40%  {background-color:black; left:200px; top:300px;}
+	48%  {background-color:violet; left:0px; top:300px;}
+    	56%  {background-color:orange; left:-200px; top:300px;}
+	64%  {background-color:yellow; left:-400px; top:300px;}
+    	72%  {background-color:blue; left:-400px; top:150px;}
+    	80%  {background-color:green; left:-400px; top:0px;}
+	88%  {background-color:orange; left:-200px; top:0px;}
+    	100% {background-color:red; left:0px; top:0px;}
+  }
