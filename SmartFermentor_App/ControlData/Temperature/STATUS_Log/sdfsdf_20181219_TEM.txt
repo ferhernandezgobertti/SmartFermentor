@@ -1,0 +1,12 @@
+dic 19 2018 01:00:52.139290 - Control STOPPED Successfully
+dic 19 2018 01:03:44.573898 - Control STOPPED Successfully
+dic 19 2018 01:15:13.687020 - Control STOPPED Successfully
+dic 19 2018 01:18:35.819803 - Control STOPPED Successfully
+dic 19 2018 01:26:00.344302 - Control STOPPED Successfully
+dic 19 2018 02:43:22.553949 - Control STOPPED Successfully
+dic 19 2018 02:48:30.199181 - Control STOPPED Successfully
+dic 19 2018 02:56:58.213788 - Control STOPPED Successfully
+dic 19 2018 02:59:24.158215 - Control STOPPED Successfully
+dic 19 2018 03:04:30.848791 - Control STOPPED Successfully
+dic 19 2018 03:18:54.863446 - Control STOPPED Successfully
+dic 19 2018 22:44:42.554338 - Control STOPPED Successfully

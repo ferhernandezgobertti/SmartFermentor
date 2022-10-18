@@ -1,0 +1,15 @@
+02:46:11 - Bath Circulator ending or changing Temp SV: Successful
+02:46:20 - Bath Circulator starting or changing Temp SV: Temp: 4200; Pump: 5
+02:53:15 - Bath Circulator ending or changing Temp SV: Successful
+02:53:25 - Bath Circulator starting or changing Temp SV: Temp: 5213; Pump: 5
+02:54:47 - Bath Circulator ending or changing Temp SV: Successful
+02:54:56 - Bath Circulator starting or changing Temp SV: Temp: 4227; Pump: 5
+02:56:22 - Bath Circulator ending or changing Temp SV: Successful
+02:56:32 - Bath Circulator starting or changing Temp SV: Temp: 4302; Pump: 5
+02:57:53 - Bath Circulator ending or changing Temp SV: Successful
+02:58:03 - Bath Circulator starting or changing Temp SV: Temp: 4245; Pump: 5
+02:59:24 - Bath Circulator ending or changing Temp SV: Successful
+02:59:34 - Bath Circulator starting or changing Temp SV: Temp: 4199; Pump: 5
+03:00:56 - Bath Circulator ending or changing Temp SV: Successful
+03:01:06 - Bath Circulator starting or changing Temp SV: Temp: 4173; Pump: 5
+03:02:18 - Bath Circulator ending or changing Temp SV: Successful

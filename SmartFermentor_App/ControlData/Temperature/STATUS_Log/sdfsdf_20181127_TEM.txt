@@ -1,0 +1,22 @@
+Nov 27 2018 18:08:25.620574 - Control STOPPED Successfully
+Nov 27 2018 20:31:05.650254 - Control STOPPED Successfully
+Nov 27 2018 20:50:09.039014 - Control STOPPED Successfully
+Nov 27 2018 21:00:05.872968 - Control STOPPED Successfully
+Nov 27 2018 21:00:46.640192 - Control STOPPED Successfully
+Nov 27 2018 21:17:11.750821 - Control STOPPED Successfully
+Nov 27 2018 21:28:41.595424 - Control STOPPED Successfully
+Nov 27 2018 22:17:01.693609 - Control STOPPED Successfully
+Nov 27 2018 22:18:24.610477 - Control STOPPED Successfully
+Nov 27 2018 22:20:44.383728 - Control INITIATED Successfully
+Nov 27 2018 22:20:45.315774 - INITIATE at 90.0  for 3 hours, 0 min, 0 sec
+Nov 27 2018 22:21:24.606214 - Control STOPPED Successfully
+Nov 27 2018 22:21:57.986973 - Control STOPPED Successfully
+Nov 27 2018 22:26:32.031919 - Control INITIATED Successfully
+Nov 27 2018 22:26:36.399116 - INITIATE at 90.0  for 3 hours, 0 min, 0 sec
+Nov 28 2018 00:22:28.938477 - Control STOPPED Successfully
+Nov 28 2018 00:24:01.918542 - Control INITIATED Successfully
+Nov 28 2018 00:24:09.938433 - INITIATE at 42.0 °C (Celsius) for 3 hours, 0 min, 0 sec
+Nov 28 2018 00:24:21.086100 - Control STOPPED Successfully
+Nov 28 2018 00:24:39.022545 - Control INITIATED Successfully
+Nov 28 2018 00:25:15.822065 - Control STOPPED Successfully
+Nov 28 2018 00:25:22.978078 - Control STOPPED Successfully

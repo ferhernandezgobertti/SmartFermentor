@@ -1,0 +1,17 @@
+Nov 26 2018 15:15:27.355318 - Control STOPPED Successfully
+Nov 26 2018 15:53:18.237314 - Control STOPPED Successfully
+Nov 26 2018 16:00:14.942318 - Control STOPPED Successfully
+Nov 26 2018 16:21:55.194669 - Control STOPPED Successfully
+Nov 26 2018 16:25:40.110460 - Control STOPPED Successfully
+Nov 26 2018 16:39:24.468432 - Control STOPPED Successfully
+Nov 26 2018 16:43:45.725386 - Control STOPPED Successfully
+Nov 26 2018 16:47:57.952026 - Control STOPPED Successfully
+Nov 26 2018 16:50:01.662380 - Control STOPPED Successfully
+Nov 26 2018 16:55:52.424248 - Control STOPPED Successfully
+Nov 26 2018 16:59:02.421485 - Control STOPPED Successfully
+Nov 26 2018 17:04:35.024465 - Control STOPPED Successfully
+Nov 26 2018 17:07:27.804705 - Control STOPPED Successfully
+Nov 26 2018 17:14:44.874951 - Control STOPPED Successfully
+Nov 26 2018 18:40:01.530884 - Control STOPPED Successfully
+Nov 26 2018 18:43:12.718486 - Control STOPPED Successfully
+Nov 26 2018 18:44:32.375944 - Control STOPPED Successfully

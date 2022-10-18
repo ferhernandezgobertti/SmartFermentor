@@ -1,0 +1,4 @@
+dic 20 2018 01:14:12.924831 - Control INITIATED Successfully
+dic 20 2018 01:14:23.463566 - INITIATE at 42.0  for 8 hours, 0 min, 0 sec
+dic 20 2018 01:22:58.272835 - Control STOPPED Successfully
+dic 20 2018 01:25:30.293636 - Control STOPPED Successfully

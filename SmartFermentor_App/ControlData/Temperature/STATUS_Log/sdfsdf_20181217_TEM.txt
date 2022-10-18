@@ -1,0 +1,38 @@
+Dec 17 2018 17:31:37.353388 - Control INITIATED Successfully
+Dec 17 2018 17:31:44.075163 - INITIATE at 42.0  for 8 hours, 0 min, 0 sec
+Dec 17 2018 17:32:52.219395 - Control STOPPED Successfully
+Dec 17 2018 17:34:23.386657 - Control INITIATED Successfully
+Dec 17 2018 17:34:57.492760 - Control STOPPED Successfully
+Dec 17 2018 17:35:05.516220 - Control STOPPED Successfully
+Dec 17 2018 17:40:16.079736 - Control STOPPED Successfully
+Dec 17 2018 17:41:28.203707 - Control INITIATED Successfully
+Dec 17 2018 17:41:28.598177 - INITIATE at 42.0  for 8 hours, 0 min, 0 sec
+Dec 17 2018 17:43:27.765749 - Control STOPPED Successfully
+Dec 17 2018 17:57:30.068940 - Control INITIATED Successfully
+Dec 17 2018 17:57:34.034054 - INITIATE at 42.0  for 8 hours, 0 min, 0 sec
+Dec 17 2018 18:00:25.607419 - Control STOPPED Successfully
+Dec 17 2018 18:00:51.460956 - Control STOPPED Successfully
+Dec 17 2018 18:02:56.399816 - Control INITIATED Successfully
+Dec 17 2018 18:02:56.410176 - INITIATE at 42.0  for 8 hours, 0 min, 0 sec
+Dec 17 2018 18:03:31.452671 - Control STOPPED Successfully
+Dec 17 2018 18:06:20.861880 - Control INITIATED Successfully
+Dec 17 2018 18:06:27.184514 - INITIATE at 42.0  for 8 hours, 0 min, 0 sec
+Dec 17 2018 18:07:03.316501 - Control STOPPED Successfully
+Dec 17 2018 18:08:17.412986 - Control INITIATED Successfully
+Dec 17 2018 18:08:24.529364 - INITIATE at 42.0  for 8 hours, 0 min, 0 sec
+Dec 17 2018 18:09:02.312038 - Control STOPPED Successfully
+Dec 17 2018 18:10:02.673220 - Control INITIATED Successfully
+Dec 17 2018 18:10:11.286266 - INITIATE at 42.0  for 8 hours, 0 min, 0 sec
+Dec 17 2018 18:10:53.965200 - Control STOPPED Successfully
+Dec 17 2018 18:11:02.060941 - Control STOPPED Successfully
+Dec 17 2018 20:05:43.352151 - Control INITIATED Successfully
+Dec 17 2018 20:05:46.563734 - INITIATE at 42.0  for 8 hours, 0 min, 0 sec
+Dec 17 2018 21:40:04.052908 - Control STOPPED Successfully
+Dec 17 2018 21:40:30.974995 - Control STOPPED Successfully
+Dec 17 2018 21:43:15.163038 - Control INITIATED Successfully
+Dec 17 2018 21:43:15.689881 - INITIATE at 42.0  for 8 hours, 0 min, 0 sec
+Dec 17 2018 22:02:06.567632 - Control STOPPED Successfully
+Dec 17 2018 22:02:30.931228 - Control STOPPED Successfully
+Dec 17 2018 22:31:35.395728 - Control STOPPED Successfully
+Dec 17 2018 22:55:15.648404 - Control STOPPED Successfully
+Dec 17 2018 22:58:51.600743 - Control STOPPED Successfully

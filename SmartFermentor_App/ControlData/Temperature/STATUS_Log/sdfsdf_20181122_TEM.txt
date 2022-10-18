@@ -1,0 +1,10 @@
+Nov 22 2018 18:22:38.723249 - Control INITIATED Successfully
+Nov 22 2018 18:22:46.958408 - INITIATE at 37.0  for 3 hours, 0 min, 0 sec
+Nov 22 2018 18:23:43.474588 - Control STOPPED Successfully
+Nov 22 2018 18:25:25.605272 - Control INITIATED Successfully
+Nov 22 2018 18:25:29.598746 - INITIATE at 37.0  for 3 hours, 0 min, 0 sec
+Nov 22 2018 18:25:47.970546 - Control STOPPED Successfully
+Nov 22 2018 18:26:26.997372 - Control INITIATED Successfully
+Nov 22 2018 18:26:31.506141 - INITIATE at 37.0  for 3 hours, 0 min, 0 sec
+Nov 22 2018 19:15:27.476254 - Control STOPPED Successfully
+Nov 22 2018 19:15:38.783979 - Control STOPPED Successfully

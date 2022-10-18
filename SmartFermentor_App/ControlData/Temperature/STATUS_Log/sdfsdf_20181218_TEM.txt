@@ -1,0 +1,46 @@
+Dec 18 2018 17:40:07.042771 - Control STOPPED Successfully
+Dec 18 2018 17:47:01.924130 - Control STOPPED Successfully
+Dec 18 2018 17:52:22.401394 - Control STOPPED Successfully
+Dec 18 2018 18:28:15.015799 - Control INITIATED Successfully
+Dec 18 2018 18:28:15.617659 - INITIATE at 42.0  for 8 hours, 0 min, 0 sec
+Dec 18 2018 18:30:53.577580 - Control STOPPED Successfully
+Dec 18 2018 18:33:29.572421 - Control STOPPED Successfully
+Dec 18 2018 18:40:32.239915 - Control INITIATED Successfully
+Dec 18 2018 18:40:39.130157 - INITIATE at 42.0  for 8 hours, 0 min, 0 sec
+Dec 18 2018 18:44:10.965684 - Control STOPPED Successfully
+Dec 18 2018 18:44:20.902227 - Control STOPPED Successfully
+Dec 18 2018 18:49:59.856580 - Control STOPPED Successfully
+Dec 18 2018 18:51:47.411691 - Control INITIATED Successfully
+Dec 18 2018 18:51:55.547618 - INITIATE at 42.0  for 8 hours, 0 min, 0 sec
+Dec 18 2018 19:02:25.217216 - Control STOPPED Successfully
+Dec 18 2018 19:02:49.863550 - Control STOPPED Successfully
+Dec 18 2018 19:12:26.637688 - Control STOPPED Successfully
+Dec 18 2018 19:19:35.787129 - Control STOPPED Successfully
+Dec 18 2018 19:27:09.044698 - Control STOPPED Successfully
+Dec 18 2018 19:50:26.712633 - Control STOPPED Successfully
+Dec 18 2018 19:53:55.723274 - Control INITIATED Successfully
+Dec 18 2018 19:53:58.623935 - INITIATE at 42.0  for 8 hours, 0 min, 0 sec
+Dec 18 2018 19:54:18.984524 - Control STOPPED Successfully
+Dec 18 2018 19:55:10.912110 - Control INITIATED Successfully
+Dec 18 2018 19:57:29.725334 - Control STOPPED Successfully
+Dec 18 2018 19:57:36.066960 - Control STOPPED Successfully
+Dec 18 2018 20:08:51.387203 - Control INITIATED Successfully
+Dec 18 2018 20:09:01.197473 - INITIATE at 42.0  for 8 hours, 0 min, 0 sec
+Dec 18 2018 20:29:28.251914 - Control STOPPED Successfully
+Dec 18 2018 20:31:08.217921 - Control STOPPED Successfully
+Dec 18 2018 21:03:25.457875 - Control STOPPED Successfully
+Dec 18 2018 21:07:26.388729 - Control STOPPED Successfully
+Dec 18 2018 21:09:33.639768 - Control STOPPED Successfully
+Dec 18 2018 21:13:49.577555 - Control STOPPED Successfully
+Dec 18 2018 21:29:30.926182 - Control STOPPED Successfully
+Dec 18 2018 21:38:12.735748 - Control STOPPED Successfully
+Dec 18 2018 21:42:34.200247 - Control STOPPED Successfully
+Dec 18 2018 21:45:50.811414 - Control STOPPED Successfully
+Dec 18 2018 21:48:37.160797 - Control STOPPED Successfully
+Dec 18 2018 21:51:54.309838 - Control STOPPED Successfully
+dic 18 2018 22:14:24.122946 - Control STOPPED Successfully
+dic 18 2018 22:16:10.675896 - Control STOPPED Successfully
+dic 18 2018 22:39:23.168198 - Control STOPPED Successfully
+dic 18 2018 22:41:35.408880 - Control STOPPED Successfully
+dic 18 2018 22:48:15.075910 - Control STOPPED Successfully
+dic 18 2018 22:57:47.484746 - Control STOPPED Successfully
