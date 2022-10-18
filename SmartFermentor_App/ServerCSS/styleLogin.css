@@ -1,0 +1,244 @@
+.container {
+  background-color: #085454;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  /*min-height: 100vh;
+  width: 200px;
+  top: 43%;
+  left: 44%;*/
+}
+
+body {
+  margin: 25px;
+  font-family: Spicy Rice, cursive;
+  font-size: 32px;
+}
+
+label {
+    width: 300px;
+    clear: left;
+    text-align: right;
+    padding-right: 30px;
+    color: white;
+}
+
+input, label {
+    float: left;
+}
+
+
+.smartSystemImage {
+    padding: 5px;
+    border-radius: 8px;
+    border: 5px solid #ddd;
+}
+
+
+.passwordShow {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 24px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.passwordShow input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.passwordShow:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.passwordShow input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.passwordShow input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.passwordShow .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+.mySlides{
+  position: relative;
+  bottom: 100px;
+  left: 300px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 5px solid #ddd;
+}
+
+.mySlides:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.messageInformation{
+  width:1200px;
+  padding-left:100px;
+}
+
+.evolutionInformation{
+  position: relative;
+  width:700px;
+  padding-left:150px;
+  top: 200px;
+}
+
+.styled {
+    border: 0;
+    height:120px;
+    width:300px;
+    line-height: 3.5;
+    padding: 0 10px;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, .3, 0, .2),
+                                      rgba(0, .3, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+
+.styled:hover {
+    width: 500px;
+    background-color: rgba(155, 100, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.container svg {
+  max-width: 45rem;
+  width: 100%;
+  height: auto;
+  fill: none;
+  stroke: white;
+  stroke-width: 4;
+}
+.container svg tspan > tspan {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: -1500;
+}
+.container svg tspan > tspan:nth-of-type(1) {
+  -webkit-animation: draw 200ms 200ms forwards;
+          animation: draw 200ms 200ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(2) {
+  -webkit-animation: draw 200ms 300ms forwards;
+          animation: draw 200ms 300ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(3) {
+  -webkit-animation: draw 200ms 400ms forwards;
+          animation: draw 200ms 400ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(4) {
+  -webkit-animation: draw 200ms 500ms forwards;
+          animation: draw 200ms 500ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(5) {
+  -webkit-animation: draw 200ms 600ms forwards;
+          animation: draw 200ms 600ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(6) {
+  -webkit-animation: draw 200ms 700ms forwards;
+          animation: draw 200ms 700ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(7) {
+  -webkit-animation: draw 200ms 800ms forwards;
+          animation: draw 200ms 800ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(8) {
+  -webkit-animation: draw 200ms 900ms forwards;
+          animation: draw 200ms 900ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(9) {
+  -webkit-animation: draw 200ms 1000ms forwards;
+          animation: draw 200ms 1000ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(10) {
+  -webkit-animation: draw 200ms 1100ms forwards;
+          animation: draw 200ms 1100ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(11) {
+  -webkit-animation: draw 200ms 1200ms forwards;
+          animation: draw 200ms 1200ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(12) {
+  -webkit-animation: draw 200ms 1300ms forwards;
+          animation: draw 200ms 1300ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(13) {
+  -webkit-animation: draw 200ms 1400ms forwards;
+          animation: draw 200ms 1400ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(14) {
+  -webkit-animation: draw 200ms 1500ms forwards;
+          animation: draw 200ms 1500ms forwards;
+}
+.container svg tspan > tspan:nth-of-type(15) {
+  -webkit-animation: draw 200ms 1600ms forwards;
+          animation: draw 200ms 1600ms forwards;
+}
+
+@-webkit-keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+} 
+

@@ -1,0 +1,40 @@
+h1 {
+  font-size: 48px;
+  color: white;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+th{
+  font-size: 32px;
+  color: orange;
+}
+
+tr:nth-child(even) {
+  background-color: #08aa45;
+  color: white;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align: center;
+  color: orange;
+}
