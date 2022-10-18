@@ -2,7 +2,9 @@
 Automatic Control and Management together with Remote Monitoring and Supervision of a Research Bioreactor
 
 Engineering Project Thesis 2018 - Universidad ORT Uruguay
+
 FIRST PLACE - National Engineering Project (ANIU Uruguay 2019)
+
 Full Report Document: https://dspace.ort.edu.uy/handle/20.500.11968/3945
 
 General System's Visual Overview:
