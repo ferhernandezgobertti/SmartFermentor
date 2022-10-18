@@ -1,0 +1,422 @@
+#include <Arduino.h>
+#include <Wire.h>
+#include <string.h>
+#include <avr/sleep.h>
+#include <avr/wdt.h>
+#include "StringSplitter.h"
+
+#define SERIAL_DELAY 100
+#define SERIAL_BAUD 9600
+#define I2C_ADDRESS 0x66
+#define I2C_DELAY 300
+#define I2C_DATA_DELAY 600
+#define RESPONSE_MAXLENGTH 20
+
+int medition = 0;
+
+byte deviceReachable(){
+  Wire.beginTransmission(I2C_ADDRESS);   
+  Wire.write("Find <cr>");
+  Wire.endTransmission();
+  delay(I2C_DELAY);
+  Wire.requestFrom(I2C_ADDRESS, 1, 1);
+  byte responseRight = Wire.read();
+  if(responseRight==1){
+    Serial.print("#1GOOD!");
+  }
+  Wire.endTransmission();
+  return responseRight;
+}
+
+byte lockProtocolI2C(){
+  Wire.beginTransmission(I2C_ADDRESS);   
+  Wire.write("Plock,1");
+  Wire.endTransmission();
+  delay(I2C_DELAY);
+  Wire.requestFrom(I2C_ADDRESS, 1, 1);
+  byte responseRight = Wire.read();
+  if(responseRight==1){
+    Serial.print("#2GOOD!");
+  }
+  Wire.endTransmission();
+  return responseRight;
+}
+
+byte getDeviceInformation(){
+  Wire.beginTransmission(I2C_ADDRESS);   
+  Wire.write("i");
+  Wire.endTransmission();
+  delay(300);
+  Wire.requestFrom(I2C_ADDRESS, RESPONSE_MAXLENGTH, 1);
+  byte responseRight = Wire.read();
+  //Serial.println(responseRight);
+  if(responseRight == 1){
+    char firmware[RESPONSE_MAXLENGTH];
+    byte i = 0;
+    while (Wire.available()) {
+      char response = Wire.read();
+      firmware[i] = response;
+      i++;
+      if (response == 0) {
+       String firmwareString;
+       StringSplitter *firmwareSplitter = new StringSplitter(firmware, ',', 3);
+       int splitCount = firmwareSplitter->getItemCount();
+       for(int split = 0; split < splitCount; split++){
+        firmwareString = firmwareSplitter->getItemAtIndex(split);
+       }
+       Serial.print("#3X"+firmwareString);
+       break;
+      }
+    }
+   }
+  Wire.endTransmission();
+  return responseRight;
+}
+
+byte checkCalibration(){
+  Wire.beginTransmission(I2C_ADDRESS);   
+  Wire.write("Cal,?");
+  Wire.endTransmission();
+  delay(I2C_DELAY);
+  Wire.requestFrom(I2C_ADDRESS, RESPONSE_MAXLENGTH, 1);
+  byte responseRight = Wire.read();
+  //Serial.println(responseRight);
+  if(responseRight == 1){
+    char calibration[RESPONSE_MAXLENGTH];
+    byte i = 0;
+    while (Wire.available()) {
+     char response = Wire.read();
+     calibration[i] = response;
+     i++;
+     if (response == 0) {
+       String calibrationOption;
+       StringSplitter *calibrationSplitter = new StringSplitter(calibration, ',', 2);
+       int splitCount = calibrationSplitter->getItemCount();
+       for(int split = 0; split < splitCount; split++){
+        calibrationOption = calibrationSplitter->getItemAtIndex(split);
+       }
+       Serial.print("#4XXXX"+calibrationOption);
+       break;
+     }
+    }
+  }
+  Wire.endTransmission();
+  return responseRight;
+}
+
+byte setTemperatureUnit(char unit){
+  Wire.beginTransmission(I2C_ADDRESS);
+  if(unit == 'C'){
+    Wire.write("S,C");
+  }
+  if(unit == 'K'){
+    Wire.write("S,K");
+  }
+  if(unit == 'F'){
+    Wire.write("S,F");
+  }
+  Wire.endTransmission();
+  delay(I2C_DELAY);
+  Wire.requestFrom(I2C_ADDRESS, 1, 1);
+  byte responseRight = Wire.read();
+  if(responseRight==1){
+    Serial.print("#5GOOD!");
+  }
+  return responseRight;
+}
+
+byte checkTemperatureUnit(char unit){
+  Wire.beginTransmission(I2C_ADDRESS);   
+  Wire.write("S,?");
+  Wire.endTransmission();
+  delay(I2C_DELAY);
+  Wire.requestFrom(I2C_ADDRESS, 20, 1);
+  byte responseRight = Wire.read();
+  //Serial.println(responseRight);
+  if(responseRight == 1){
+    char temperatureScale[RESPONSE_MAXLENGTH];
+    byte i = 0;
+    while (Wire.available()) {
+     char response = Wire.read();
+     temperatureScale[i] = response;
+     i++;
+     if (response == 0) {
+       String scale;
+       StringSplitter *temperatureSplitter = new StringSplitter(temperatureScale, ',', 2);
+       int splitCount = temperatureSplitter->getItemCount();
+       for(int split = 0; split < splitCount; split++){
+        scale = temperatureSplitter->getItemAtIndex(split);
+       }
+       Serial.print("#6XXXX"+scale);
+       break;
+     }
+    }
+  }
+  Wire.endTransmission();
+  return responseRight;
+}
+
+byte getVoltage(){
+  Wire.beginTransmission(I2C_ADDRESS);   
+  Wire.write("Status");
+  Wire.endTransmission();
+  delay(I2C_DELAY);
+  Wire.requestFrom(I2C_ADDRESS, 20, 1);
+  byte responseRight = Wire.read();
+  if(responseRight == 1){
+    char deviceStatus[RESPONSE_MAXLENGTH];
+    byte i = 0;
+    while (Wire.available()) {
+     char response = Wire.read();
+     deviceStatus[i] = response;
+     i++;
+     if (response == 0) {
+       String voltageStatus;
+       StringSplitter *statusSplitter = new StringSplitter(deviceStatus, ',', 3);
+       int splitCount = statusSplitter->getItemCount();
+       for(int split = 0; split < splitCount; split++){
+        voltageStatus = statusSplitter->getItemAtIndex(split);
+       }
+       Serial.print("#7X"+voltageStatus);
+       break;
+     }
+    }
+  }
+  Wire.endTransmission();
+  return responseRight;
+}
+
+byte cleanMemory(){
+  Wire.beginTransmission(I2C_ADDRESS);   
+  Wire.write("M,clear");
+  Wire.endTransmission();
+  delay(I2C_DELAY);
+  Wire.requestFrom(I2C_ADDRESS, 20, 1);
+  byte responseRight = Wire.read();
+  if(responseRight==1){
+    Serial.print("#8GOOD!");
+  }
+  Wire.endTransmission();
+  return responseRight;
+}
+/*
+void sleepArduino(){
+   set_sleep_mode(SLEEP_MODE_PWR_DOWN);
+   sleep_enable();
+   sleep_mode(); // Device put to Sleep
+   sleep_disable();
+}
+
+void sleepModules(){
+  Wire.beginTransmission(I2C_ADDRESS);   
+  Wire.write("Sleep");
+  Wire.endTransmission();
+}
+*/
+byte getTemperature(){
+  Wire.beginTransmission(I2C_ADDRESS);   
+  Wire.write("R");  //WRITE TO SENSOR
+  Wire.endTransmission();
+  delay(I2C_DATA_DELAY);
+  Wire.requestFrom(I2C_ADDRESS, RESPONSE_MAXLENGTH, 1);
+  byte responseRight = Wire.read(); //READ FROM SENSOR
+  if (responseRight == 1) {  
+    char temperature[RESPONSE_MAXLENGTH];
+    byte i = 0;
+    while (Wire.available()) {
+      char medition = Wire.read();
+      temperature[i] = medition;
+      i++;
+      if (medition== 0) {
+        Serial.print("#");
+        Serial.print(temperature);
+        break;
+      }
+    }
+  }
+  Wire.endTransmission();
+  return responseRight;
+}
+/*
+void resetArduino(uint8_t wdtTime){
+  wdt_enable(wdtTime);
+  while(1){}
+}
+*/
+//PROGRAM BEGINNING !!!!
+
+void setup() {
+  
+  Wire.begin();
+  Serial.begin(SERIAL_BAUD);
+  if(!Serial){
+    //Serial.println("Serial could not Begin");
+    Serial.print("#ERROR");
+    //sleepArduino();
+  } else {
+    Serial.print("#BEGIN!");
+  }
+  delay(SERIAL_DELAY); // WAIT FOR SERIAL PORT TO CONNECT
+  
+  if(deviceReachable() != 1){
+    //Serial.print("Serial could not BE REACHED: ");
+    Serial.print("#1ERROR");
+    //sleepModules();
+    //sleepArduino();
+  }
+  
+  delay(I2C_DATA_DELAY);
+  
+  if(lockProtocolI2C() != 1){ //TO AVOID FLAPPING OF MANUAL I2C MODE SETTING
+    //Serial.print("Serial could not LOCK PROTOCOL I2C: ");
+    Serial.print("#2ERROR");
+    //sleepModules();
+    //sleepArduino();
+  }
+
+  delay(I2C_DATA_DELAY);
+  
+  if(getDeviceInformation() != 1){
+    //Serial.print("Serial could not GET INFORMATION: ");
+    Serial.print("#3ERROR");
+    //sleepModules();
+    //sleepArduino();
+  }
+  
+  delay(I2C_DATA_DELAY);
+  
+  if(checkCalibration() != 1){
+    //Serial.print("Serial could not BE CALIBRATED: ");
+    Serial.print("#4ERROR");
+//    sleepModules();
+//    sleepArduino();
+  }
+
+  delay(I2C_DATA_DELAY);
+  
+  char tempUnit = 'C'; //ADD AS INPUT
+  if(setTemperatureUnit(tempUnit) != 1){
+    //Serial.print("Serial could not SET TEMPERATURE: ");
+    Serial.print("#5ERROR");
+//    sleepModules();
+//    sleepArduino();
+  }
+
+  delay(I2C_DATA_DELAY);
+
+  if(checkTemperatureUnit(tempUnit) != 1){
+    //Serial.print("Serial could not CHECK TEMPERATURE: ");
+    Serial.print("#6ERROR");
+//    sleepModules();
+//    sleepArduino();
+  }
+
+  delay(I2C_DATA_DELAY);
+  
+  // END SETUP - THEN BEGIN LOOP
+}
+
+//PROGRAM LOOP BEGINNING !!!!!
+
+void loop() {
+
+  if(getVoltage() != 1){
+    //Serial.println("Serial could not GET VOLTAGE");
+    Serial.print("#7ERROR");
+ //   resetArduino(WDTO_15MS);
+  }
+
+  delay(I2C_DATA_DELAY);
+  
+  if(cleanMemory() != 1){ // TO MAKE A MORE EFFECTIVE USE OF MEMORY
+    //Serial.println("Serial could not CLEAN MEMORY");
+    Serial.println("#8ERROR");
+//    resetArduino(WDTO_15MS);
+  }
+
+  delay(600);
+
+  medition++;
+  if(getTemperature() != 1 && medition!=1){
+    //Serial.print("Serial could not GET TEMPERATURE: ");
+    Serial.println("#9ERROR");
+    //resetArduino(WDTO_15MS);
+  }
+
+  delay(I2C_DATA_DELAY);
+  
+}  
+
+
+
+// ALTERNATIVE: MY CODE
+/*  Wire.beginTransmission(I2C_Address);
+  
+  Wire.requestFrom(I2C_Address, 1);
+  
+  if(Wire.available()<=1){  //READ
+    responseAddress = Wire.read(); //205 (READ)
+    Serial.println(responseAddress);
+  }
+
+  Wire.requestFrom(I2C_Address, 1);
+  
+  if(Wire.available()<=1){  //READ
+    responseAddress = Wire.read();
+    Serial.println(responseAddress);
+  }
+  
+  Wire.requestFrom(I2C_Address, 14);
+  
+  if(Wire.available()<=14){  //READ
+    temperatureOUT = Wire.read();
+    Serial.println(temperatureOUT);
+  }
+  
+  Wire.endTransmission();
+  
+}*/
+
+/*void convertUARTtoI2C() {
+  //CODE TO UART->I2C
+  Serial.write("I2C,102 <cr>");  
+  String UARTread = Serial.read();
+  Serial.println(UARTread);
+  if(UARTread != "*OK <cr>"){
+    Serial.end();
+   }
+}
+
+void initializeFiles(){
+  if(SD.exists("RTDerror.txt")){
+    Serial.println("ERROR FILE not yet Created. Creating one NOW!");
+  }
+  errorFile = SD.open("RTDerror.txt", FILE_WRITE);
+  if(errorFile){
+    errorFile.write("SDFSDFS");
+    errorFile.close();
+  } 
+  
+  if(SD.exists("RTDstatus.txt")){
+    Serial.println("STATUS FILE not yet Created. Creating one NOW!");
+  }
+  statusFile = SD.open("RTDstatus.txt", FILE_WRITE);
+
+  if(SD.exists("RTDvoltData.txt")){
+    Serial.println("VOLTAGE DATA FILE not yet Created. Creating one NOW!");
+  }
+  statusFile = SD.open("RTDvoltData.txt", FILE_WRITE);
+
+  if(SD.exists("RTDtempData.txt")){
+    Serial.println("TEMPERATURE DATA FILE not yet Created. Creating one NOW!");
+  }
+  tempDataFile = SD.open("RTDtempData.txt", FILE_WRITE);
+  
+}
+
+void closeFiles(){
+  statusFile.close();
+  errorFile.close();
+  voltDataFile.close();
+  tempDataFile.close();
+} */
